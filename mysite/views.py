@@ -35,7 +35,7 @@ def analyze(request):
 
         params = {'purpose': 'Changed to Uppercase', 'analyzed_text': analyzed}
         return render(request, 'analyze.html', params)
-
+#s
     elif(extraspaceremover=="on"):
         analyzed = ""
         for index, char in enumerate(djtext):
